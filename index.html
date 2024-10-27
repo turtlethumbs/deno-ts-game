@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Adventure Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        #output {
+            white-space: pre-wrap;
+            border: 1px solid #ccc;
+            padding: 10px;
+            height: 300px;
+            overflow-y: scroll;
+        }
+        #input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Adventure Game</h1>
+    <div id="output"></div>
+    <input type="text" id="input" placeholder="Type your command here..." autofocus />
+    <script src="game.js" type="module"></script>
+</body>
+</html>
